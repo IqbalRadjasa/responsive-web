@@ -1,0 +1,14 @@
+.discover{
+    width: auto;
+    height: 70vh;
+    background-color: rgb(141, 141, 141);
+    margin-bottom: 20px;
+}
+
+.about{
+    text-align: center;
+}
+
+.line{
+    width: 50rem;
+}
