@@ -31,14 +31,13 @@ body {
 }
 
 .form-box hr {
-  width: 23rem;
   border: none;
   border-top: 2px dashed #ffffff;
   margin: 20px 0;
 }
 
 .form-box form {
-  padding: 20px 30px 30px 30px;
+  padding: 0 30px 30px 30px;
 }
 
 .form-box form input {
@@ -47,4 +46,68 @@ body {
 
 #masuk-button {
   background-color: #7886c7;
+}
+
+/* RESPONSIVE */
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+}
+
+/* Mobile L - 425px */
+@media screen and (max-width: 425px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  /* .form-box hr {
+    width: 19rem;
+  } */
+
+  .form-box {
+    margin-top: 1rem;
+  }
+
+  .form-box form input {
+    width: 19rem;
+  }
+}
+
+/* Mobile M - 375px */
+@media screen and (max-width: 375px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+
+  .form-box form input {
+    width: 15rem;
+  }
 }
