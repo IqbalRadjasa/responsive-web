@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Courgette&family=Kaushan+Script&display=swap');
+
+* {
+  font-family: 'Afacad', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: max-content;
+  background-image: url('../img/wave-1.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-color: #fff2f2;
+}
+
+.form-box {
+  background-color: #ffffff;
+  margin-top: 10rem;
+  width: fit-content;
+  border-radius: 8px;
+  box-shadow: 6px 9px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-box hr {
+  width: 23rem;
+  border: none;
+  border-top: 2px dashed #ffffff;
+  margin: 20px 0;
+}
+
+.form-box form {
+  padding: 20px 30px 30px 30px;
+}
+
+.form-box form input {
+  width: 23rem;
+}
+
+#masuk-button {
+  background-color: #7886c7;
+}
