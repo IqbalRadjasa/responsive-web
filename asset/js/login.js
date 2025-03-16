@@ -1,4 +1,21 @@
 $(document).ready(function () {
+  
+  $('.show-hide-btn-1').click(function () {
+    let passwordInput = $('#password-input');
+    let showIcon = $('#show-1');
+    let hideIcon = $('#hide-1');
+
+    if (passwordInput.attr('type') === 'password') {
+      passwordInput.attr('type', 'text');
+      showIcon.addClass('d-none');
+      hideIcon.removeClass('d-none');
+    } else {
+      passwordInput.attr('type', 'password');
+      showIcon.removeClass('d-none');
+      hideIcon.addClass('d-none');
+    }
+  });
+
   $('#masuk-button').click(function (e) {
     e.preventDefault();
 
