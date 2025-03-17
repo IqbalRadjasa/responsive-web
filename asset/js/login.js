@@ -1,5 +1,8 @@
 $(document).ready(function () {
-  
+  $('#password-input').on('copy paste cut', function (e) {
+    e.preventDefault();
+  });
+
   $('.show-hide-btn-1').click(function () {
     let passwordInput = $('#password-input');
     let showIcon = $('#show-1');
