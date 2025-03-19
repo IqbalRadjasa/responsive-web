@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Courgette&family=Kaushan+Script&display=swap');
+
+* {
+  font-family: 'Afacad', sans-serif;
+}
+
+body {
+  height: 5000px;
+}
+
+nav {
+  background-color: #fff2f2;
+}
+
+#logo_brand {
+  width: 10rem;
+}
+
+.text-menu {
+  font-size: 18px;
+}
+
+.opening-text {
+  position: absolute;
+  z-index: 4;
+  margin: 15vh 37vh;
+  width: 35rem;
+}
+
+.opening-text h1 {
+  color: #a9b5df;
+}
+
+.opening-text p {
+  text-align: justify;
+  color: white;
+}
+
+.opening-text h4 {
+  color: white;
+  margin-top: 20px;
+}
+
+.opening-text a {
+  padding: 10px 35px;
+}
+
+.overlay {
+  background-color: #00000096;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel {
+  height: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-item {
+  height: inherit;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 3; /* Above the overlay */
+}
+
+.disc-img {
+  width: inherit;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.discover {
+  background-color: #3d3b40;
+  margin-bottom: 8vh;
+  height: 600px;
+  position: relative;
+}
+
+.about {
+  text-align: center;
+}
+
+.line {
+  width: 50rem;
+}

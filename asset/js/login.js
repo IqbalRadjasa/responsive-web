@@ -71,6 +71,10 @@ $(document).ready(function () {
       text: 'Selamat Datang.',
       icon: 'success',
       confirmButtonText: 'OK',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = '../beranda.html';
+      }
     });
   });
 });
