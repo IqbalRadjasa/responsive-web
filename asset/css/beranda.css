@@ -84,10 +84,36 @@ nav {
   position: relative;
 }
 
-.about {
+.promo {
   text-align: center;
+}
+
+.card {
+  width: 18rem;
+  height: 22rem;
+}
+
+.card img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card a {
+  width: 100%;
+  padding: 8px 0;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .line {
   width: 50rem;
+}
+
+.lihat-promos img {
+  width: 28px;
 }
