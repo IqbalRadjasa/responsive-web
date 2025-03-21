@@ -84,13 +84,20 @@ nav {
   position: relative;
 }
 
-.promo {
+.promo,
+.news {
   text-align: center;
+}
+
+.news {
+  margin-top: 5rem;
 }
 
 .card {
   width: 18rem;
   height: 22rem;
+  background-color: #fff2f2;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
@@ -112,6 +119,13 @@ nav {
 
 .line {
   width: 50rem;
+  border: 1px solid black;
+  margin-top: 8vh;
+}
+
+.title-line {
+  width: 50rem;
+  border-top: 2px dashed white;
 }
 
 .lihat-promos img {
