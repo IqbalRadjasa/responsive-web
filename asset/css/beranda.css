@@ -5,11 +5,16 @@
 }
 
 body {
-  height: 5000px;
+  /* height: 5000px; */
 }
 
 nav {
   background-color: #fff2f2;
+}
+
+.navbar-menus {
+  display: flex;
+  flex-direction: row;
 }
 
 #logo_brand {
@@ -68,7 +73,7 @@ nav {
 
 .carousel-control-prev,
 .carousel-control-next {
-  z-index: 3; /* Above the overlay */
+  z-index: 3;
 }
 
 .disc-img {
@@ -91,6 +96,7 @@ nav {
 
 .news {
   margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
 .card {
@@ -130,4 +136,308 @@ nav {
 
 .lihat-promos img {
   width: 28px;
+}
+
+footer .body {
+  width: 100%;
+  height: 3rem;
+  background-color: #2d336b;
+}
+
+/* RESPONSIVE */
+/* 4K - 2560px */
+@media screen and (max-width: 2560px) {
+  #logo_brand {
+    width: 12rem;
+  }
+
+  .text-menu {
+    font-size: 22px;
+  }
+
+  .opening-text {
+    margin: 11vh 35vh;
+    width: 45rem;
+  }
+
+  .opening-text h1 {
+    font-size: 45px;
+  }
+
+  .opening-text p {
+    font-size: 23px;
+  }
+
+  .opening-text h4 {
+    font-size: 30px;
+  }
+
+  .opening-text a {
+    font-size: 25px;
+  }
+
+  .benefit h2 {
+    font-size: 45px;
+  }
+
+  .benefit-text p {
+    font-size: 25px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .promo h2 {
+    font-size: 45px;
+  }
+
+  .promo-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .news-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .card h5 {
+    font-size: 30px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .card a {
+    font-size: 20px;
+  }
+
+  .lihat-promos {
+    font-size: 25px;
+  }
+}
+
+/* Laptop - 1440px */
+@media screen and (max-width: 1440px) {
+  #logo_brand {
+    width: 10rem;
+  }
+
+  .text-menu {
+    font-size: 18px;
+  }
+
+  .opening-text {
+    margin: 13vh 35vh;
+    width: 38rem;
+  }
+
+  .opening-text h1 {
+    font-size: 38px;
+  }
+
+  .opening-text p {
+    font-size: 20px;
+  }
+
+  .opening-text h4 {
+    font-size: 28px;
+  }
+
+  .opening-text a {
+    font-size: 20px;
+  }
+
+  .benefit h2 {
+    font-size: 35px;
+  }
+
+  .benefit-text p {
+    font-size: 20px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .promo h2 {
+    font-size: 35px;
+  }
+
+  .promo-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .news-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 18rem;
+    height: 25rem;
+  }
+
+  .card h5 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+
+  .card a {
+    font-size: 15px;
+  }
+
+  .lihat-promos {
+    font-size: 18px;
+  }
+
+  .promo-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .news-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .line {
+    width: 100%;
+  }
+}
+
+/* Laptop - 1024px */
+@media screen and (max-width: 1024px) {
+  .opening-text {
+    margin: 15vh 18vh;
+    width: 35rem;
+  }
+
+  .promo-cards {
+    display: flex;
+    justify-content: normal;
+  }
+
+  .news-cards {
+    display: flex;
+    justify-content: normal;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+  .navbar-menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .opening-text {
+    margin: 15vh;
+    width: 28rem;
+  }
+
+  .disc-img {
+    height: inherit;
+  }
+
+  .title-line {
+    width: 35rem;
+  }
+
+  .line {
+    width: 100%;
+  }
+}
+
+/* Mobile L - 425px */
+@media screen and (max-width: 425px) {
+  .navbar-menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .opening-text {
+    width: 18rem;
+    margin: 10vh 0 0 8.5vh;
+    text-align: center;
+  }
+
+  .opening-text h1 {
+    font-size: 25px;
+  }
+
+  .opening-text p {
+    font-size: 13px;
+  }
+
+  .opening-text h4 {
+    font-size: 18px;
+  }
+
+  .disc-img {
+    height: inherit;
+  }
+
+  .title-line {
+    width: 23rem;
+  }
+
+  .line {
+    width: 100%;
+  }
+}
+
+/* Mobile M - 375px */
+@media screen and (max-width: 375px) {
+  .opening-text {
+    width: 18rem;
+    margin: 10vh 0 0 5.5vh;
+    text-align: center;
+  }
+
+  .title-line {
+    width: 20rem;
+  }
+}
+
+/* Mobile S - 320px */
+@media screen and (max-width: 320px) {
+  .opening-text {
+    width: 13rem;
+    margin: 10vh 0 0 6.8vh;
+    text-align: center;
+  }
+
+  .title-line {
+    width: 19rem;
+  }
 }
