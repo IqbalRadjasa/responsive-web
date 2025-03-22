@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Courgette&family=Kaushan+Script&display=swap');
+
+* {
+  font-family: 'Afacad', sans-serif;
+}
+
+body {
+  /* height: 5000px; */
+}
+
+nav {
+  background-color: #fff2f2;
+}
+
+.navbar-menus {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo_brand {
+  width: 10rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.card {
+  width: 35rem;
+  height: 28rem;
+}
+
+.card img {
+  width: 100%;
+  height: 20rem;
+}
+
+footer .body {
+  width: 100%;
+  height: 3rem;
+  background-color: #2d336b;
+}
+
+/* RESPONSIVE */
+/* 4K - 2560px */
+@media screen and (max-width: 2560px) {
+  #logo_brand {
+    width: 12rem;
+  }
+
+  .text-menu {
+    font-size: 22px;
+  }
+
+  .card h4 {
+    font-size: 30px;
+  }
+
+  .card button,
+  p {
+    font-size: 20px;
+  }
+}
+
+/* Laptop - 1440px */
+@media screen and (max-width: 1440px) {
+  #logo_brand {
+    width: 10rem;
+  }
+
+  .navbar-menus a {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 32rem;
+    height: 26rem;
+  }
+
+  .card img {
+    width: 30rem;
+    height: 18rem;
+  }
+
+  .card h4 {
+    font-size: 20px;
+  }
+
+  .card button,
+  p {
+    font-size: 18px;
+  }
+}
+
+/* Laptop - 1024px */
+@media screen and (max-width: 1024px) {
+  .navbar-menus a {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 28rem;
+    height: 24rem;
+  }
+
+  .card img {
+    width: 26rem;
+    height: 16rem;
+  }
+
+  .card h4 {
+    font-size: 20px;
+  }
+
+  .card button,
+  p {
+    font-size: 18px;
+  }
+}
+
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+  .navbar-menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+
+  .main .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Mobile L - 425px */
+@media screen and (max-width: 425px) {
+  #logo_brand {
+    width: 8rem;
+  }
+
+  .navbar-menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-menus a {
+    font-size: 17px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+
+  .card {
+    width: 23rem;
+    height: 21rem;
+  }
+
+  .card img {
+    width: 21rem;
+    height: 13rem;
+  }
+
+  .card h4 {
+    font-size: 18px;
+  }
+
+  .card button,
+  p {
+    font-size: 15px;
+  }
+}
+
+/* Mobile M - 375px */
+@media screen and (max-width: 375px) {
+  #logo_brand {
+    width: 8rem;
+  }
+  .navbar-menus a {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 20rem;
+    height: 18rem;
+  }
+
+  .card img {
+    width: 18rem;
+    height: 11rem;
+  }
+
+  .card h4 {
+    font-size: 16px;
+  }
+
+  .card button,
+  p {
+    font-size: 13px;
+  }
+}
+
+/* Mobile S - 320px */
+@media screen and (max-width: 320px) {
+  #logo_brand {
+    width: 7rem;
+  }
+
+  .navbar-menus a {
+    font-size: 15px;
+  }
+
+  .card {
+    width: 18rem;
+    height: 16rem;
+  }
+
+  .card img {
+    width: 16rem;
+    height: 9rem;
+  }
+}
