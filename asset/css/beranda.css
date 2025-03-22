@@ -261,6 +261,10 @@ footer .body {
     font-size: 35px;
   }
 
+  .benefit-text {
+    padding: 0 9rem;
+  }
+
   .benefit-text p {
     font-size: 20px;
   }
@@ -336,6 +340,10 @@ footer .body {
     width: 35rem;
   }
 
+  .benefit-text {
+    padding: 0 5rem;
+  }
+
   .promo-cards {
     display: flex;
     justify-content: normal;
@@ -363,6 +371,10 @@ footer .body {
   .opening-text {
     margin: 15vh;
     width: 28rem;
+  }
+
+  .benefit-text {
+    padding: 0 2rem;
   }
 
   .disc-img {
@@ -403,6 +415,10 @@ footer .body {
     font-size: 18px;
   }
 
+  .benefit-text p {
+    font-size: 15px;
+  }
+
   .disc-img {
     height: inherit;
   }
@@ -435,6 +451,10 @@ footer .body {
     width: 13rem;
     margin: 10vh 0 0 6.8vh;
     text-align: center;
+  }
+
+  .benefit-text {
+    padding: 0 1rem;
   }
 
   .title-line {
