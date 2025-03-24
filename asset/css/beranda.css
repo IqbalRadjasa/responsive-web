@@ -226,11 +226,12 @@ footer .body {
   }
 }
 
-/* Laptop - 1440px */
+/* Laptop L - 1440px */
 @media screen and (max-width: 1440px) {
   #logo_brand {
     width: 10rem;
   }
+
 
   .text-menu {
     font-size: 20px;
@@ -333,7 +334,7 @@ footer .body {
   }
 }
 
-/* Laptop - 1024px */
+/* Laptop M - 1024px */
 @media screen and (max-width: 1024px) {
   .navbar-menus a {
     font-size: 20px;
@@ -371,6 +372,10 @@ footer .body {
     display: flex;
     flex-direction: column;
   }
+
+.offers {
+  color: red;
+}
 
   .opening-text {
     margin: 15vh;
@@ -448,6 +453,10 @@ footer .body {
 @media screen and (max-width: 375px) {
   #logo_brand {
     width: 8rem;
+  }
+
+  .offers {
+    color: yellow;
   }
 
   .navbar-menus a {

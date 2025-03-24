@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinclong*</title>
+
+    <!-- CSS -->
+    <!-- Library -->
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" />
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="../asset/css/profile.css" />
+
+    <!-- JS -->
+    <!-- Library -->
+    <script src="../lib/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Custom -->
+    <script src="../asset/js/profile.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img id="logo_brand" src="../asset/img/logo_brand.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="ms-auto navbar-menus">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-menu" aria-current="page" href="beranda.html">Beranda</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-menu" aria-current="page" href="promo.html">Promo</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-menu" aria-current="page" href="news.html">Berita</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-menu" aria-current="page" href="profile.html">Profil</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main container mt-3">
+      <div class="box">
+        <div class="img-section">
+          <div class="img-canvas">
+            <img src="../asset/icons/user.png" alt="" />
+          </div>
+          <h3 class="mt-2">Iqbal</h3>
+        </div>
+        <div class="data-section mt-5">
+          <div class="row">
+            <table>
+              <tbody>
+                <tr>
+                  <td class="title-data">Email</td>
+                  <td>:</td>
+                  <td>iqbal@gmail.com</td>
+                </tr>
+                <tr>
+                  <td class="title-data">Nomor Hp</td>
+                  <td>:</td>
+                  <td>098765432112</td>
+                </tr>
+                <tr>
+                  <td class="title-data">Dibuat pada tanggal</td>
+                  <td>:</td>
+                  <td>01-01-2025</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="keluar-section">
+          <button class="btn btn-danger" id="keluar-btn">Keluar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
