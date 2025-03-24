@@ -43,7 +43,7 @@ nav {
   height: 40rem;
   border-radius: 8px;
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-  border: 3px dashed #7886c7;
+  border: 2px solid #7886c7;
   padding: 40px 40px;
 }
 
@@ -94,7 +94,6 @@ nav {
 .keluar-section button {
   padding: 10px 30px;
 }
-
 
 /* RESPONSIVE */
 /* 4K - 2560px */
