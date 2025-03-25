@@ -232,7 +232,6 @@ footer .body {
     width: 10rem;
   }
 
-
   .text-menu {
     font-size: 20px;
   }
@@ -373,10 +372,6 @@ footer .body {
     flex-direction: column;
   }
 
-.offers {
-  color: red;
-}
-
   .opening-text {
     margin: 15vh;
     width: 28rem;
@@ -453,10 +448,6 @@ footer .body {
 @media screen and (max-width: 375px) {
   #logo_brand {
     width: 8rem;
-  }
-
-  .offers {
-    color: yellow;
   }
 
   .navbar-menus a {

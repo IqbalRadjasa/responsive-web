@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Courgette&family=Kaushan+Script&display=swap');
+
+* {
+  font-family: 'Afacad', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: max-content;
+  background-image: url('../img/wave-3.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-color: #fff2f2;
+}
+
+#logo_brand {
+  width: 12rem;
+}
+
+.form-box {
+  background-color: #ffffff;
+  margin-top: 3rem;
+  width: fit-content;
+  border-radius: 8px;
+  box-shadow: 6px 9px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-box .pelayanan {
+  padding: 0 30px 30px 30px;
+}
+
+.form-box hr {
+  border: none;
+  border-top: 2px dashed #ffffff;
+  margin: 20px 0;
+}
+
+.pelayanan-item {
+  width: 11rem;
+  border: 2px solid #7886c7;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.pelayanan-item:hover {
+  background-color: #7886c7;
+  color: white;
+}
+
+.pelayanan-item h3 {
+  font-weight: 100;
+}
+
+.img-canvas {
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+}
+
+.img-canvas img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* RESPONSIVE */
+/* 4K - 2560px */
+@media screen and (max-width: 2560px) {
+  .img-canvas {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .pelayanan-item {
+    width: 15rem;
+  }
+
+  .pelayanan-item h3 {
+    font-size: 30px;
+  }
+}
+
+/* Laptop L - 1440px */
+@media screen and (max-width: 1440px) {
+  .img-canvas {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .pelayanan-item {
+    width: 11rem;
+  }
+
+  .pelayanan-item h3 {
+    font-size: 20px;
+  }
+}
+
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+}
+
+/* Mobile L - 425px */
+@media screen and (max-width: 425px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+
+  .pelayanan-container {
+    padding: 0 82px;
+  }
+}
+
+/* Mobile M - 375px */
+@media screen and (max-width: 375px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+
+  .pelayanan-container {
+    padding: 0 57px;
+  }
+}
+
+/* Mobile S - 320px */
+@media screen and (max-width: 320px) {
+  .pelayanan-container {
+    padding: 0 30px;
+  }
+}
