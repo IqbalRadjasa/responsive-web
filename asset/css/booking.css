@@ -89,6 +89,28 @@ body {
   width: 23rem;
 }
 
+.va-image {
+  width: 10rem;
+}
+
+.va-image img {
+  width: inherit;
+}
+
+#form-va {
+  padding: 20px 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-qris {
+  padding: 35px 105px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* RESPONSIVE */
 /* 4K - 2560px */
 @media screen and (max-width: 2560px) {
@@ -207,6 +229,14 @@ body {
   .form-box form select {
     width: 19rem;
     height: auto;
+  }
+
+  #form-va {
+    padding: 20px 60px;
+  }
+
+  #form-qris {
+    padding: 35px 60px;
   }
 }
 

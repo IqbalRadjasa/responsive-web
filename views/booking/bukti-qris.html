@@ -24,7 +24,7 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
     <!-- Custom -->
-    <script src="../../asset/js/booking.js"></script>
+    <script src="../../asset/js/login.js"></script>
     <!-- END -->
   </head>
   <body>
@@ -34,32 +34,19 @@
       </div>
 
       <div class="form-box mx-auto">
-        <h1 class="text-center pt-5">LUAR DALAM</h1>
-        <form>
-          <hr class="mx-auto" />
-          <div class="mb-3">
-            <label for="tipe-mobil-input">Tipe Mobil</label>
-            <select class="form-select" aria-label="Default select example" id="tipe-mobil-input">
-              <option selected>Pilih disini</option>
-              <option value="1">Jeep</option>
-              <option value="2">SUV</option>
-              <option value="3">MPV</option>
-            </select>
+        <form id="form-qris">
+          <div class="va-image mb-3">
+            <img src="../../asset/img/qr-code.png" alt="" />
           </div>
-          <div class="mb-3">
-            <label for="tanggal-input">Tanggal</label>
-            <input type="date" class="form-control" id="tanggal-input" />
+          <h4 class="text-center">Silahkan scan barcode diatas.</h4>
+
+          <div class="total-section text-center mt-5 mb-5">
+            <h4>Tagihan anda:</h4>
+            <h4>Rp.20.000,-</h4>
           </div>
-          <div class="mb-5">
-            <label for="pembayaran-input">Metode Pembayaran</label>
-            <select class="form-select" aria-label="Default select example" id="pembayaran-input">
-              <option selected>Pilih disini</option>
-              <option value="1">Transfer</option>
-              <option value="2">QRIS</option>
-            </select>
-          </div>
-          <div class="action-section d-flex justify-content-center">
-            <a class="btn btn-primary" id="selesai-booking-btn">Selesai</a>
+          <h5 class="text-center">Waktu bayar tersisa: 30:00:00</h5>
+          <div class="action-section d-flex justify-content-center mt-4">
+            <a href="../beranda.html" class="btn btn-primary">Kembali</a>
           </div>
         </form>
       </div>
