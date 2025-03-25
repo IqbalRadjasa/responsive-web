@@ -90,7 +90,8 @@ nav {
 }
 
 .promo,
-.news {
+.news,
+.antrian {
   text-align: center;
 }
 
@@ -132,6 +133,16 @@ nav {
 .title-line {
   width: 50rem;
   border-top: 2px dashed white;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filter-section input {
+  width: 15rem;
 }
 
 .lihat-promos img {
@@ -176,10 +187,6 @@ footer .body {
     font-size: 25px;
   }
 
-  .benefit h2 {
-    font-size: 45px;
-  }
-
   .benefit-text p {
     font-size: 25px;
   }
@@ -188,7 +195,10 @@ footer .body {
     width: 100%;
   }
 
-  .promo h2 {
+  .promo h2,
+  .antrian h2,
+  .news h2,
+  .benefit h2 {
     font-size: 45px;
   }
 
@@ -224,6 +234,11 @@ footer .body {
   .lihat-promos {
     font-size: 25px;
   }
+
+  .antrian table th,
+  td {
+    font-size: 20px;
+  }
 }
 
 /* Laptop L - 1440px */
@@ -257,10 +272,6 @@ footer .body {
     font-size: 20px;
   }
 
-  .benefit h2 {
-    font-size: 35px;
-  }
-
   .benefit-text {
     padding: 0 9rem;
   }
@@ -273,7 +284,10 @@ footer .body {
     width: 100%;
   }
 
-  .promo h2 {
+  .promo h2,
+  .antrian h2,
+  .news h2,
+  .benefit h2 {
     font-size: 35px;
   }
 
@@ -330,6 +344,11 @@ footer .body {
 
   .line {
     width: 100%;
+  }
+
+  .antrian table th,
+  td {
+    font-size: 17px;
   }
 }
 
@@ -442,6 +461,24 @@ footer .body {
   .line {
     width: 100%;
   }
+
+  .filter-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-button {
+    margin-bottom: 1rem;
+  }
+
+  .filter-section input {
+    width: 10rem;
+  }
+
+  .antrian table th,
+  td {
+    font-size: 13px;
+  }
 }
 
 /* Mobile M - 375px */
@@ -462,6 +499,19 @@ footer .body {
 
   .title-line {
     width: 20rem;
+  }
+
+  .filter-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-button {
+    margin-bottom: 1rem;
+  }
+
+  .filter-section input {
+    width: 10rem;
   }
 }
 
