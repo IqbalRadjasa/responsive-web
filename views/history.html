@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinclong</title>
+
+    <!-- CSS -->
+    <!-- Library -->
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" />
+    <!-- Custom -->
+    <link rel="stylesheet" href="../asset/css/history.css" />
+    <!-- END -->
+
+    <!-- JS -->
+    <!-- Library -->
+    <script src="../lib/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <!-- Custom -->
+    <script src="../asset/js/booking.js"></script>
+    <!-- END -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-section">
+        <img id="logo_brand" src="../asset/img/logo_brand.png" alt="" />
+      </div>
+
+      <div class="form-box mx-auto">
+        <div class="riwayat">
+          <a href="profile.html" class="btn btn-primary mb-3 kembali-button">Kembali</a>
+          <div class="riwayat-item mb-2">
+            <div class="img-canvas">
+              <img src="../asset/img/luar-dalam.jpeg" alt="" />
+            </div>
+            <div class="desc">
+              <div class="line-1">
+                <h5>LUAR DALAM</h5>
+                <h5>01-01-2025</h5>
+              </div>
+              <div class="line-2">
+                <div class="status">
+                  <div class="indicator-progress me-1"></div>
+                  <p>Menunggu Pembayaran</p>
+                </div>
+                <p>QRIS</p>
+              </div>
+              <div class="line-3">
+                <a href="booking/bukti-qris.html" class="btn btn-primary">Lihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="riwayat-item">
+            <div class="img-canvas">
+              <img src="../asset/img/luar-saja.jpeg" alt="" />
+            </div>
+            <div class="desc">
+              <div class="line-1">
+                <h5>LUAR SAJA</h5>
+                <h5>01-01-2025</h5>
+              </div>
+              <div class="line-2">
+                <div class="status">
+                  <div class="indicator-done me-1"></div>
+                  <p>Sudah bayar</p>
+                </div>
+                <p>Transfer</p>
+              </div>
+              <div class="line-3">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bukti-bayar">Lihat</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="bukti-bayar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title" id="staticBackdropLabel">Nomor antrian #1</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="header">
+                <div class="bukti-img-canvas">
+                  <img src="../asset/img/luar-saja.jpeg" alt="" />
+                </div>
+                <h3>BUKTI KINCLONG</h3>
+                <hr />
+              </div>
+              <div class="desc">
+                <div class="mb-3 desc-item">
+                  <label for="">Nama Pemilik Kendaraan:</label>
+                  <p>Iqbal</p>
+                </div>
+                <div class="mb-3 desc-item">
+                  <label for="">Jenis Kendaraan:</label>
+                  <p>Jeep</p>
+                </div>
+                <div class="mb-3 desc-item">
+                  <label for="">Tipe Pelayanan:</label>
+                  <p>LUAR SAJA</p>
+                </div>
+                <div class="mb-3 desc-item">
+                  <label for="">Metode Pembayaran:</label>
+                  <p>Transfer</p>
+                </div>
+                <div class="mb-3 desc-item">
+                  <label for="">Tanggal Booking:</label>
+                  <p>02-01-2025</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

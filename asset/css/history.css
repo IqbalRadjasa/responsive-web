@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Courgette&family=Kaushan+Script&display=swap');
+
+* {
+  font-family: 'Afacad', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: max-content;
+  background-image: url('../img/wave-3.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-color: #fff2f2;
+}
+
+#logo_brand {
+  width: 12rem;
+}
+
+.form-box {
+  background-color: #ffffff;
+  margin-top: 3rem;
+  width: fit-content;
+  border-radius: 8px;
+  box-shadow: 6px 9px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-box .riwayat {
+  padding: 30px 30px 30px 30px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.riwayat .kembali-button {
+  padding: 10px 20px;
+}
+
+.img-canvas {
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+}
+
+.img-canvas img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.riwayat-item {
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+.riwayat-item .desc {
+  width: 25rem;
+}
+
+.riwayat-item .line-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.riwayat-item .line-2 {
+  margin-bottom: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.riwayat-item .line-2 .status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.riwayat-item .line-2 .indicator-progress {
+  width: 10px;
+  height: 10px;
+  background-color: #ffae00;
+  border-radius: 50%;
+}
+
+.riwayat-item .line-2 .indicator-done {
+  width: 10px;
+  height: 10px;
+  background-color: #18f527;
+  border-radius: 50%;
+}
+
+.riwayat-item .line-2 p {
+  margin: 0;
+}
+
+.riwayat-item .line-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.riwayat-item .line-3 a {
+  padding: 5px 25px;
+}
+
+.riwayat-item .line-3 button {
+  padding: 5px 25px;
+}
+
+.bukti-img-canvas {
+  width: 9rem;
+  height: 9rem;
+  overflow: hidden;
+}
+
+.bukti-img-canvas img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.modal .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal .header hr {
+  width: 100%;
+  border-top: 2px dashed #ffffff;
+}
+
+.modal .desc .desc-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal .desc .desc-item label {
+  font-weight: bold;
+}
+
+.modal .desc .desc-item p {
+  margin: 0;
+}
+
+/* RESPONSIVE */
+/* 4K - 2560px */
+@media screen and (max-width: 2560px) {
+  .img-canvas {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .form-box form label {
+    font-size: 20px;
+  }
+
+  .form-box form a {
+    font-size: 20px;
+  }
+
+  .riwayat-item .desc {
+    margin-left: 1rem;
+  }
+
+  .bukti-img-canvas {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .modal .modal-header h1 {
+    font-size: 25px;
+  }
+
+  .modal .header h3 {
+    font-size: 32px;
+  }
+
+  .modal .desc .desc-item label {
+    font-size: 20px;
+  }
+
+  .modal .desc .desc-item p {
+    font-size: 20px;
+  }
+
+  .modal .modal-footer button {
+    font-size: 20px;
+  }
+}
+
+/* Laptop L - 1440px */
+@media screen and (max-width: 1440px) {
+  .img-canvas {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .pelayanan-item {
+    width: 11rem;
+  }
+
+  .pelayanan-item h3 {
+    font-size: 20px;
+  }
+
+  .form-box form label {
+    font-size: 17px;
+  }
+
+  .form-box form a {
+    font-size: 17px;
+  }
+
+  .form-box form input {
+    width: 30rem;
+    height: 3rem;
+    font-size: 17px;
+  }
+
+  .form-box form select {
+    width: 30rem;
+    height: 3rem;
+    font-size: 17px;
+  }
+
+  .bukti-img-canvas {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .modal .modal-header h1 {
+    font-size: 20px;
+  }
+
+  .modal .header h3 {
+    font-size: 28px;
+  }
+
+  .modal .desc .desc-item label {
+    font-size: 18px;
+  }
+
+  .modal .desc .desc-item p {
+    font-size: 18px;
+  }
+
+  .modal .modal-footer button {
+    font-size: 18px;
+  }
+}
+
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+}
+
+/* Mobile L - 425px */
+@media screen and (max-width: 425px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+
+  .riwayat-item .desc {
+    width: 12rem;
+  }
+
+  .img-canvas {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .kembali-button {
+    font-size: 13px;
+  }
+
+  .riwayat-item .desc .line-1 h5 {
+    font-size: 15px;
+  }
+
+  .riwayat-item .desc .line-2 p {
+    font-size: 13px;
+  }
+
+  .riwayat-item .desc .line-3 button {
+    font-size: 13px;
+  }
+
+  .riwayat-item .desc .line-3 a {
+    font-size: 13px;
+  }
+}
+
+/* Mobile M - 375px */
+@media screen and (max-width: 375px) {
+  .logo-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo_brand {
+    width: 9rem;
+    margin-top: 3rem;
+  }
+
+  .form-box {
+    margin-top: 1rem;
+  }
+
+  .riwayat-item .desc {
+    width: 10rem;
+  }
+
+  .riwayat-item .desc .line-1 h5 {
+    font-size: 13px;
+  }
+
+  .riwayat-item .desc .line-2 p {
+    font-size: 11px;
+  }
+
+  .riwayat-item .desc .line-3 button {
+    font-size: 11px;
+  }
+
+  .riwayat-item .desc .line-3 a {
+    font-size: 11px;
+  }
+}
+
+/* Mobile S - 320px */
+@media screen and (max-width: 320px) {
+  .riwayat-item {
+    flex-direction: column;
+  }
+
+  .riwayat-item .img-canvas {
+    width: 100%;
+  }
+
+  .riwayat-item .desc {
+    width: 13rem;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .riwayat-item .desc .line-1 h5 {
+    font-size: 13px;
+  }
+
+  .riwayat-item .desc .line-2 p {
+    font-size: 11px;
+  }
+
+  .riwayat-item .desc .line-3 button {
+    font-size: 11px;
+  }
+
+  .riwayat-item .desc .line-3 a {
+    font-size: 11px;
+  }
+}

@@ -17,7 +17,6 @@ body {
   background-size: contain;
   background-color: #ffffff;
 }
-
 nav {
   background-color: #fff2f2;
 }
@@ -47,6 +46,17 @@ nav {
   padding: 40px 40px;
 }
 
+.box .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.box .riwayat-btn {
+  background-color: #2d336b;
+  color: white;
+}
+
 .img-section {
   display: flex;
   flex-direction: column;
@@ -70,7 +80,7 @@ nav {
 }
 
 .data-section {
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 
 .data-section table td {
@@ -85,13 +95,17 @@ nav {
   width: 14rem;
 }
 
-.keluar-section {
+.box .footer-section {
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
 
 .keluar-section button {
+  padding: 10px 30px;
+}
+
+.keluar-section a {
   padding: 10px 30px;
 }
 
